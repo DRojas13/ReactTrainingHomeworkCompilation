@@ -13,6 +13,9 @@ function App() {
         <h1>Hello, {name}</h1>
         </div>
         <div>
+        <label>
+          Please enter your name: <br />
+        </label>
         <input type="text" onChange={(event) => setName(event.target.value) } />
         </div>
       </header>
